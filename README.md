@@ -1,4 +1,4 @@
-# WebApp boilerplate with React and Cloud 9
+# Gatsby WebApp boilerplate with React and Cloud 9
 
 Requirements: Make sure you are using node version 8
 * `$ node -v` to check which node version you are using
@@ -7,7 +7,7 @@ Requirements: Make sure you are using node version 8
 
 ##### Clone this boilerplate
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello-webapp
+$ git clone https://github.com/pandahacker/react-gatsby-webapp
 ```
 
 ##### and install the npm package:
@@ -15,7 +15,7 @@ $ git clone https://github.com/4GeeksAcademy/react-hello-webapp
 $ npm install
 ```
 
-## Start coding! 
+## Start coding!
 
 Start the webpack server with live reload:
 - `$ npm run c9` for Cloud 9 Users.
@@ -37,7 +37,7 @@ React Context [docs](https://reactjs.org/docs/context.html)
 
 The `Context.Provider` is already set, you can use the `Context.Consumer` to get the `store` and `actions` from the Context. Check `/views/demo.jsx` to see a demo.
 
-## Publish your website! 
+## Publish your website!
 
 This boilerplate is 100% compatible with the free github pages hosting.
 To publish your website you need to push your code to your github repository and run the following command after:
