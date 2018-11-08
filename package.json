@@ -1,17 +1,22 @@
 {
-	"name": "react-hello-webapp",
-	"version": "1.0.1",
+	"name": "react-gatsby-webapp",
+	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"c9": "webpack-dev-server --mode development --open --host $IP --port $PORT",
 		"dev-server": "webpack-dev-server --mode development --hot",
-		"build": "webpack --mode development",
-		"deploy": "node deploy-to-github.js"
+		"deploy": "node deploy-to-github.js",
+		"build": "gatsby build",
+	    "develop": "gatsby develop",
+	    "start": "npm run develop",
+	    "format": "prettier --write \"src/**/*.js\"",
+	    "test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": [
 		"Alejandro Sanchez",
-		"Ignacio Cordoba"
+		"Ignacio Cordoba",
+		"Blake Albertson"
 	],
 	"license": "ISC",
 	"devDependencies": {
@@ -43,6 +48,9 @@
 		"webpack-cli": "^3.1.1",
 		"webpack-dev-server": "^3.1.1"
 	},
+	"keywords": [
+    "gatsby"
+  	],
 	"babel": {
 		"presets": [
 			"env",
@@ -59,9 +67,10 @@
 		"popper.js": "^1.12.9",
 		"prop-types": "^15.6.1",
 		"query-string": "^5.1.1",
-		"react": "^16.5.2",
+		"react": "^16.5.1",
+	    "react-dom": "^16.5.2",
+	    "react-helmet": "^5.2.0"
 		"react-polyfills": "0.0.1",
-		"react-dom": "^16.5.2",
 		"react-router": "^4.3.1",
 		"react-router-dom": "^4.3.1"
 	}
